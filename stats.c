@@ -41,3 +41,31 @@ void main() {
 }
 
 /* Add other Implementation File Code Here */
+
+void print_statistics(void){
+
+}
+
+void print_array(int* array, int lenght){
+
+}
+
+int find_median(int* array, int lenght){
+
+}
+
+int find_mean(int* array, int lenght){
+
+}
+
+int find_maximum(int* array, int lenght){
+
+}
+
+int find_minimum(int* array, int lenght){
+
+}
+
+void sort_array(int* array, int lenght){
+
+}

@@ -24,12 +24,12 @@
 /* Add Your Declarations and Function Comments here */ 
 
 void print_statistics(void); // prints minimum, maximum, mean, and median of an array
-void print_array(int* array, int lenght); // prints the array to the screen
-int find_median(int* array, int lenght); // returns the median value
-int find_mean(int* array, int lenght); // returns the mean value
-int find_maximum(int* array, int lenght); // returns the maximum value
-int find_minimum(int* array, int lenght); // returns the minimum value
-void sort_array(int* array, int lenght); // sorts the array from largest to smallest
+void print_array(unsigned char* array, int lenght); // prints the array to the screen
+int find_median(unsigned char* array, int lenght); // returns the median value
+int find_mean(unsigned char* array, int lenght); // returns the mean value
+int find_maximum(unsigned char* array, int lenght); // returns the maximum value
+int find_minimum(unsigned char* array, int lenght); // returns the minimum value
+void sort_array(unsigned char* array, int lenght); // sorts the array from largest to smallest
 
 /**
  * @brief <Add Brief Description of Function Here>

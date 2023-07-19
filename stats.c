@@ -37,6 +37,7 @@ void main() {
 
   /* Other Variable Declarations Go Here */
   /* Statistics and Printing Functions Go Here */
+  print_array(test,SIZE);
 
 }
 
@@ -46,26 +47,29 @@ void print_statistics(void){
 
 }
 
-void print_array(int* array, int lenght){
+void print_array(unsigned char* array, int lenght){
+  for (int i = 0; i < lenght; i++)
+  {
+    printf("%d. element is %d\n", i+1, array[i]);
+  }
+}
+
+int find_median(unsigned char* array, int lenght){
 
 }
 
-int find_median(int* array, int lenght){
+int find_mean(unsigned char* array, int lenght){
 
 }
 
-int find_mean(int* array, int lenght){
+int find_maximum(unsigned char* array, int lenght){
 
 }
 
-int find_maximum(int* array, int lenght){
+int find_minimum(unsigned char* array, int lenght){
 
 }
 
-int find_minimum(int* array, int lenght){
-
-}
-
-void sort_array(int* array, int lenght){
+void sort_array(unsigned char* array, int lenght){
 
 }

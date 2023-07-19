@@ -1,1 +1,3 @@
-/* Add Author and Project Details here */
+Cihan Senyuz
+
+Coursera Assignment 1

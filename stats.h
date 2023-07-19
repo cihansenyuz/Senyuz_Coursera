@@ -10,7 +10,7 @@
  *****************************************************************************/
 /**
  * @file stats.h 
- * @brief Calculates statistisc of an array
+ * @brief Calculates statistics of an array
  *
  * Calculates and prints statistics of a given array and its lenght
  *
